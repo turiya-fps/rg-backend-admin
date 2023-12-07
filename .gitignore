@@ -1,0 +1,15 @@
+.vscode/*
+!.vscode/extensions.json
+
+node_modules
+
+.env
+.npmrc
+
+.eslintcache
+
+build/coverage
+
+dist
+dist-ssr
+storybook-static

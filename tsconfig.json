@@ -1,0 +1,64 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+
+    "types": [
+      "vitest/globals",
+    ],
+
+    "strict": true,
+    "alwaysStrict": true,
+
+    "allowJs": false,
+    "checkJs": false,
+
+    "sourceMap": true,
+    "declaration": false,
+    "isolatedModules": true,
+    "removeComments": false,
+    "stripInternal": true,
+    "skipLibCheck": true,
+
+    "useUnknownInCatchVariables": true,
+    "useDefineForClassFields": true,
+
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "preserveConstEnums": true,
+
+    "noErrorTruncation": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noEmit": true,
+  },
+
+  "include": [
+    ".eslintrc.cjs",
+    "commitlint.config.cjs",
+    "postcss.config.cjs",
+    "tailwind.config.cjs",
+
+    "vite.config.ts",
+    "vitest.config.ts",
+
+    "src",
+  ],
+
+  "references": [
+    {
+      "path": "./tsconfig.node.json",
+    },
+  ],
+}
